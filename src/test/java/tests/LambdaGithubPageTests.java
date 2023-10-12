@@ -14,8 +14,6 @@ import static io.qameta.allure.Allure.step;
 
 public class LambdaGithubPageTests extends TestBase {
 
-    GithubPage githubPage = new GithubPage();
-
     @Test
     @DisplayName("Проверка Issue при помощи Lambda шагов")
     @Owner("VS")
