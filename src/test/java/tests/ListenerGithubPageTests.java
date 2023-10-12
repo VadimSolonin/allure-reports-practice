@@ -9,11 +9,11 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.GithubPage;
 
-public class SelenideGithubPageTests extends TestBase {
+public class ListenerGithubPageTests extends TestBase {
     GithubPage githubPage = new GithubPage();
 
     @Test
-    @DisplayName("Проверка Issue при помощи Selenide")
+    @DisplayName("Проверка Issue")
     @Owner("VS")
     @Severity(SeverityLevel.NORMAL)
     void verifyIssueTitleSelenideTest() {
